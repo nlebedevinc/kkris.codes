@@ -1,5 +1,4 @@
 <template>
-  <div class="container">
     <Particles
                 id="tsparticles"
                 :options="{
@@ -81,31 +80,6 @@
                     detectRetina: true
                 }"
         />
-    <div>
-      <Logo />
-      <h1 class="title">
-        kkris.codes
-      </h1>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
-    </div>
-  </div>
 </template>
 
 <script lang="ts">
@@ -152,5 +126,16 @@ export default Vue.extend({})
 
 .links {
   padding-top: 15px;
+}
+
+#tsparticles {
+  position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    canvas {
+      height: 99% !important;
+    }
 }
 </style>
