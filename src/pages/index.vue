@@ -1,4 +1,5 @@
 <template>
+  <div id="index">
     <Particles
                 id="tsparticles"
                 :options="{
@@ -80,6 +81,8 @@
                     detectRetina: true
                 }"
         />
+        <Card/>
+  </div>
 </template>
 
 <script lang="ts">
@@ -126,6 +129,15 @@ export default Vue.extend({})
 
 .links {
   padding-top: 15px;
+}
+
+#index {
+  background-color: #222;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #tsparticles {
