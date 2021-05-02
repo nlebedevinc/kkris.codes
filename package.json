@@ -12,7 +12,8 @@
   "dependencies": {
     "core-js": "^3.9.1",
     "nuxt": "^2.15.3",
-    "particles.js": "^2.0.0"
+    "tsparticles": "^1.26.3",
+    "vue-class-component": "^7.2.6"
   },
   "devDependencies": {
     "@nuxt/types": "^2.15.3",
