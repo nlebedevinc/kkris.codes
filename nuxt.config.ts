@@ -33,6 +33,21 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/typescript
     '@nuxt/typescript-build',
+    ['@nuxtjs/fontawesome', {
+      component: 'fa',
+      icons: {
+        solid: true,
+        brands: [
+          'faGithub',
+          'faMedium',
+          'faSkype',
+          'faInstagram',
+          'faTelegram',
+          'faLinkedin',
+          'faTwitter',
+        ]
+      },
+    }],
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -41,5 +56,5 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-  }
+  },
 }

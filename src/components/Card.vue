@@ -5,35 +5,35 @@
 
     <div class="card-icons">
       <a href="https://github.com/nlebedevinc">
-        <icon name="envelope" scale="2" />
+        <fa icon="envelope" class="card-icon" />
       </a>
 
       <a href="https://github.com/nlebedevinc">
-        <icon name="brands/github" scale="2" />
+        <fa :icon="['fab', 'github']" class="card-icon" />
       </a>
 
       <a href="https://github.com/nlebedevinc">
-        <icon name="brands/linkedin" scale="2" />
+        <fa :icon="['fab', 'twitter']" class="card-icon" />
       </a>
 
       <a href="https://github.com/nlebedevinc">
-        <icon name="brands/twitter" scale="2" />
+        <fa :icon="['fab', 'linkedin']" class="card-icon" />
       </a>
 
       <a href="https://github.com/nlebedevinc">
-        <icon name="brands/medium" scale="2" />
+        <fa :icon="['fab', 'medium']" class="card-icon" />
       </a>
 
       <a href="https://github.com/nlebedevinc">
-        <icon name="brands/skype" scale="2" />
+        <fa :icon="['fab', 'skype']" class="card-icon" />
       </a>
 
       <a href="https://github.com/nlebedevinc">
-        <icon name="brands/telegram" scale="2" />
+        <fa :icon="['fab', 'telegram']" class="card-icon" />
       </a>
 
       <a href="https://github.com/nlebedevinc">
-        <icon name="brands/instagram" scale="2" />
+        <fa :icon="['fab', 'instagram']" class="card-icon" />
       </a>
     </div>
   </div>
@@ -49,9 +49,10 @@
 
 .card-icons {
   margin-top: 30px;
-  svg,
-  img {
-    margin: 10px;
-  }
+}
+
+.card-icon {
+  font-size: 32px;
+  margin: 5px;
 }
 </style>
