@@ -1,7 +1,7 @@
 <template>
   <div class="card">
     <h1>Kristina Kalbasuik</h1>
-    <h2>k.kalbasuik</h2>
+    <h2>Data Scientist</h2>
 
     <div class="card-icons">
       <a href="https://github.com/nlebedevinc">
