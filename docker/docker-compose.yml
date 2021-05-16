@@ -1,0 +1,16 @@
+version: '3.1'
+
+networks:
+  codes_net:
+    driver: bridge
+
+services:
+  kkris.codes:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    restart: unless-stopped
+    networks:
+      - codes_net
+    ports:
+      - "3000:3000"
